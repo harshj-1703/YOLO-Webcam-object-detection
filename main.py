@@ -22,7 +22,6 @@ classNames = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "trai
               "teddy bear", "hair drier", "toothbrush"
               ]
 
-
 while True:
     success, img = cap.read()
     results = model(img, stream=True)
